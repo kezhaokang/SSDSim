@@ -176,6 +176,7 @@ struct ssd_info *initiation(struct ssd_info *ssd)
 
     fclose(fp);
     printf("initiation is completed!\n");
+    struct ac_time_characteristics ac_timing;
 
     return ssd;
 }

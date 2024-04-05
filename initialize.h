@@ -113,7 +113,7 @@ Hao Luo         2011/01/01        2.0           Change               luohao13568
 #define OVERFLOW	-3
 typedef int Status;     
 
-struct ac_time_characteristics{
+extern struct ac_time_characteristics{
     int tPROG;     //program time
     int tDBSY;     //bummy busy time for two-plane program
     int tBERS;     //block erase time
